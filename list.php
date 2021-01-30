@@ -37,7 +37,7 @@
                     // Include config file
                     require_once "config.php";
                     
-                    // Attempt select query execution
+                    // Attempt select query execution modified
                     $sql = "SELECT * FROM employees";
                      // Executing and getting results
                     $mysqli_result = mysqli_query($link, $sql); 
